@@ -1,0 +1,6 @@
+Host hass
+    HostName hass
+    User root
+    Port 22222
+    RequestTTY yes
+    RemoteCommand cd /mnt/data/supervisor/homeassistant/; exec bash
